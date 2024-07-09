@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+@media (min-width: 400px) {
+  .App-header {
+    background-color: rgb(17, 157, 250);
+  }
+}
+
+@media (min-width: 600px) {
+  .App-header {
+    background-color: #1fa3f0;
+  }
+}
+
+@media (min-width:1024px) {
+  .App-header {
+    background-color: aqua;
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f43f5e;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: aquamarine;
+}
